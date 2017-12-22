@@ -1,0 +1,116 @@
+/* reset.css*/
+html, body, p, ol, ul, li, dl, dt, dd, blockquote, figure, fieldset, legend, textarea, pre, iframe, hr, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0; }
+
+input, button {
+  border: none; }
+
+div {
+  margin: 0;
+  padding: 0;
+  display: block; }
+
+a {
+  text-decoration: none; }
+
+/* class */
+.left {
+  float: left; }
+
+.right {
+  float: right; }
+
+.clearfloat:after {
+  content: "";
+  visibility: hidden;
+  height: 0;
+  display: block;
+  clear: both; }
+
+.clearfloat {
+  zoom: 1; }
+
+body {
+  font-family: "Microsoft YaHei UI"; }
+
+.container {
+  position: relative;
+  margin: 0 auto;
+  width: 1000px; }
+
+/* index.css*/
+.index-top {
+  height: 30px;
+  background: #f7f7f7;
+  font-size: 12px;
+  color: #666666; }
+  .index-top .starsite {
+    margin-top: 8px;
+    font-weight: bold;
+    background: url(../images/star.png) no-repeat;
+    padding-left: 17px;
+    line-height: 12px; }
+  .index-top .login_signup {
+    margin-top: 8px; }
+    .index-top .login_signup .wellcome {
+      margin-right: 10px; }
+
+.index-headbar {
+  height: 85px;
+  background: #1d7ad9; }
+  .index-headbar .logo {
+    margin-top: 13px;
+    margin-left: 39px; }
+  .index-headbar .search {
+    margin-left: 185px;
+    margin-top: 23px;
+    background: #fff; }
+    .index-headbar .search .search_input {
+      width: 350px;
+      height: 35px;
+      padding-left: 10px;
+      background: #fff; }
+    .index-headbar .search .search_btn {
+      width: 69px;
+      height: 35px;
+      font-size: 14px;
+      text-align: center;
+      color: #ffffff;
+      background: #ff8c00; }
+  .index-headbar .shopcar {
+    margin-left: 31px;
+    margin-top: 23px;
+    height: 35px;
+    background: #ff8c00; }
+    .index-headbar .shopcar .shopcar-text {
+      display: inline-block;
+      height: 35px;
+      width: 57px;
+      line-height: 35px;
+      padding-left: 40px;
+      border-right: 1px solid #e27a00;
+      background: url(../images/shopcar.png) no-repeat 10px center;
+      color: #ffffff; }
+    .index-headbar .shopcar .shopcar-number {
+      display: inline-block;
+      height: 35px;
+      line-height: 35px;
+      width: 36px;
+      margin-left: 0;
+      padding-left: 19px;
+      border-left: 1px solid #ff9c01;
+      color: #ffffff;
+      background: url(../images/shopNum.png) no-repeat 33px center; }
+
+.index-footer {
+  height: 223px;
+  background: #d4d4d4;
+  text-align: center;
+  font-size: 12px;
+  padding-top: 1px; }
+  .index-footer .footer-info {
+    line-height: 23px;
+    margin-top: 55px; }
+
+/*# sourceMappingURL=index.css.map */
