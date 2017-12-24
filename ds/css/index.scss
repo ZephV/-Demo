@@ -6,6 +6,10 @@ html, body, p, ol, ul, li, dl, dt, dd, blockquote, figure, fieldset, legend, tex
     padding: 0;
 }
 
+ul{
+    list-style: none;
+}
+
 input,button{
     border: none;
 }
@@ -41,8 +45,12 @@ a{
     zoom: 1;
 } 
 // index.css
+html{
+    box-sizing: border-box;
+}
 body{
     font-family:"Microsoft YaHei UI";
+    
 }
 
 .container{
@@ -53,6 +61,7 @@ body{
 
 /* index.css*/ 
 
+/* 主页顶部 */
 .index-top{
     height: 30px;
     background: #f7f7f7;
@@ -73,6 +82,7 @@ body{
     }
 }
 
+/* 主页头部 */
 .index-headbar{
     height: 85px;
     background: #1d7ad9;
@@ -128,6 +138,42 @@ body{
     }
 }
 
+/* 主页导航部分*/
+.index-navbar{
+    background: #1369c0;
+    text-align: center;
+    .allcategories{
+        width: 189px;
+        height: 35px;
+        margin-right: 0;
+        line-height: 35px;
+        color: #ffffff;
+        font-size: 16px;
+        .icon{
+            display: inline-block;
+            width: 11px;
+            height: 7px;
+            margin-left: 10px;
+            background: url(../images/icon_v.png) no-repeat;
+        }
+    }
+    .nav{
+        line-height: 35px;
+        li{
+            width: 100px;
+            float: left;
+            a{
+                color: #ffffff;
+            }
+        }
+        .active{
+            background: #000;
+        }
+    }
+   
+}
+
+/* 主页页脚 */
 .index-footer{
     height: 223px;    
     background: #d4d4d4;

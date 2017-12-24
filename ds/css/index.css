@@ -1,7 +1,11 @@
+@charset "UTF-8";
 /* reset.css*/
 html, body, p, ol, ul, li, dl, dt, dd, blockquote, figure, fieldset, legend, textarea, pre, iframe, hr, h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0; }
+
+ul {
+  list-style: none; }
 
 input, button {
   border: none; }
@@ -31,6 +35,9 @@ a {
 .clearfloat {
   zoom: 1; }
 
+html {
+  box-sizing: border-box; }
+
 body {
   font-family: "Microsoft YaHei UI"; }
 
@@ -40,6 +47,7 @@ body {
   width: 1000px; }
 
 /* index.css*/
+/* 主页顶部 */
 .index-top {
   height: 30px;
   background: #f7f7f7;
@@ -56,6 +64,7 @@ body {
     .index-top .login_signup .wellcome {
       margin-right: 10px; }
 
+/* 主页头部 */
 .index-headbar {
   height: 85px;
   background: #1d7ad9; }
@@ -103,6 +112,34 @@ body {
       color: #ffffff;
       background: url(../images/shopNum.png) no-repeat 33px center; }
 
+/* 主页导航部分*/
+.index-navbar {
+  background: #1369c0;
+  text-align: center; }
+  .index-navbar .allcategories {
+    width: 189px;
+    height: 35px;
+    margin-right: 0;
+    line-height: 35px;
+    color: #ffffff;
+    font-size: 16px; }
+    .index-navbar .allcategories .icon {
+      display: inline-block;
+      width: 11px;
+      height: 7px;
+      margin-left: 10px;
+      background: url(../images/icon_v.png) no-repeat; }
+  .index-navbar .nav {
+    line-height: 35px; }
+    .index-navbar .nav li {
+      width: 100px;
+      float: left; }
+      .index-navbar .nav li a {
+        color: #ffffff; }
+    .index-navbar .nav .active {
+      background: #000; }
+
+/* 主页页脚 */
 .index-footer {
   height: 223px;
   background: #d4d4d4;
