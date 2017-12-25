@@ -24,6 +24,10 @@ a{
     text-decoration: none;
 }
 
+
+h3{
+    display: inline;
+}
 /* class */
 .left{
     float: left;
@@ -44,6 +48,14 @@ a{
 .clearfloat{
     zoom: 1;
 } 
+
+.hide{
+    display: none;
+}
+
+.show{
+    display: block;
+}
 // index.css
 html{
     box-sizing: border-box;
@@ -141,24 +153,135 @@ body{
 /* 主页导航部分*/
 .index-navbar{
     background: #1369c0;
-    text-align: center;
-    .allcategories{
+    .categories{
         width: 189px;
-        height: 35px;
-        margin-right: 0;
-        line-height: 35px;
-        color: #ffffff;
-        font-size: 16px;
-        .icon{
-            display: inline-block;
-            width: 11px;
-            height: 7px;
-            margin-left: 10px;
-            background: url(../images/icon_v.png) no-repeat;
+        height: 36px;
+        position: relative;
+        h3{
+            color: #ffffff;
+            line-height: 36px;
+            font-size: 16px;
+            margin-left: 38px;
+            .icon{
+                display: inline-block;
+                width: 11px;
+                height: 7px;
+                margin-left: 10px;
+                background: url(../images/icon_v.png) no-repeat;
+            }
+        }
+        .categorie{
+            position: absolute;
+            width: 100%;
+            left: 0;
+            top: 36px;
+            .item{
+                padding: 14px 10px;
+                background: #4593fd;
+                border-top: 1px solid #5aa1fe;
+                border-bottom: 1px solid #3487f2;
+                dt{
+                    height: 20px;
+                    background: url(../images/icon_triangle_r.png) right center no-repeat;
+                    a{  
+                        font-size: 14px;
+                        color:#f6f9ff;
+                    }
+                }
+                dd{ 
+                    height: 20px;
+                    a{  
+                        font-family:"宋体";
+                        font-size:12px;
+                        color: #c2d9f8;
+                    }
+                }
+                .alink{
+                    display: inline-block;
+                    width: 48px;
+                    height: 18px;
+                    background: url(../images/a_link.png) left center no-repeat;
+                    text-align: center;
+                    font-size:12px;
+                    font-family:"新宋体";
+                    color:#ffffff;
+                    text-decoration: underline;
+                }
+            }
+            .active{
+                background: #ffffff;
+                border-left: 1px solid #4593fd;
+                dt,dd{
+                    background: none;
+                    a{
+                    color:#000000;
+                }}
+                .alink{
+                    color:#ffffff;
+                }
+            }
+        }
+        .series{
+            width: 568px;
+            position: absolute;
+            top: 36px;
+            left: 189px;
+            border: 1px solid gray;
+            .box{
+                padding: 0 20px;
+            }
+            dl{
+                padding: 10px 0;
+                border-bottom: 1px solid #e5e5e5;
+                dt{ 
+                    line-height: 24px;
+                    margin-right: 14px;
+                    font-size: 12px;
+                    font-weight: bold;
+                    font-family: "宋体";
+                    color:#4b88da;
+                }
+                dd{
+                    line-height: 24px;
+                    margin-top: -24px;
+                    padding-left: 68px;
+                    font-size: 12px;
+                    font-family: "宋体";
+                    a{
+                        margin-right: 12px;
+                        color: #666666;
+                        &:hover{
+                            color:#ff7300;
+                        }
+                    }
+                }
+            }
+            .series_more{
+                padding:15px 0;
+                .series_more-btn{
+                    display: inline-block;
+                    width: 106px;
+                    height: 26px;
+                    margin-right: 10px;
+                    background: #2785e6;
+                    text-align: center;
+                    line-height: 26px;
+                    font-size: 12px;
+                    color:#ffffff;
+                    span{
+                        display: inline-block;
+                        width: 5px;
+                        height: 8px;
+                        margin-left: 8px;
+                        background: url(../images/icon_triangle_white.png) no-repeat;
+                    }
+                }
+            }
         }
     }
     .nav{
-        line-height: 35px;
+        line-height: 36px;
+        text-align: center;
         li{
             width: 100px;
             float: left;

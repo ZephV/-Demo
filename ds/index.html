@@ -1,55 +1,219 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>Document</title>
-	<link rel="stylesheet" href="style/minireset.css">
-	<link rel="stylesheet" href="style/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>首页</title>
+    <!-- <link rel="stylesheet" href="css/minireset.css"> -->
+    <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
-	<div class="headerBar">
-		<div class="topBar">
-			<div class="container clearfix">
-				<div class="leftArea fl">
-					<div class="star"></div>
-					<a href="#" class="collection">收藏首页</a>
-				</div>
-				<div class="rightArea fr">
-					<a href="#" class="login">[登录]</a>
-					<a href="#" class="sign">[免费注册]</a>
-				</div>
-			</div>
-		</div>
-		<div class="logoBar">
-			<div class="container clearfix">
-				<div class="logo fl">
-					<a href="#"><img src="images/logo.png" alt="logo.png"></a>
-				</div>
-				<div class="search_box fl">
-					<input type="text" class="search_text fl">
-					<input type="button" value="搜 索" class="search_btn fr">
-				</div>
-				<div class="shopcar fl">
-					<span class="shoptext fl">购物车</span>
-					<span class="shopNum fl" >0</span>
-				</div>
-			</div>
-		</div>
-		<div class="navbar">
-			<div class="container">
-				<div class="shopClass">
-					<h3>商品分类</h3>
-				</div>
-				<div class="nav">
-					<li><a href="#">数码商城</a></li>
-					<li><a href="#">天黑黑</a></li>
-					<li><a href="#">团购</a></li>
-					<li><a href="#">发现</a></li>
-					<li><a href="#">二手特卖</a></li>
-					<li><a href="#">数码城</a></li>
-				</div>
-			</div>
-		</div>
-	</div>
+    <div class="index-top">
+        <div class="container clearfloat">
+            <a href="#" class="starsite left">收藏本站</a>
+            <div class="login_signup right">
+                <span class="wellcome">欢迎来到本站!</span><a class="login" href="#">[登录]</a><a class="signup" href="#">[注册]</a>
+            </div>
+        </div>
+    </div>
+    <div class="index-headbar">
+        <div class="container clearfloat">
+            <div class="logo left">
+                <img src="images/logo.png" alt="logo">
+            </div>
+            <div class="search clearfloat left">
+                <input type="text" class="search_input left">
+                <input type="text" value="搜索" class="search_btn right">
+            </div>
+            <div class="shopcar left clearfloat">
+                <span class="shopcar-text left">购物车</span>
+                <span class="shopcar-number right">0</span>
+            </div>
+        </div>
+    </div>
+    <div class="index-navbar clearfloat">
+        <div class="container clearfloat">
+            <div class="categories left">
+                <h3>全部商品分类<i class="icon"></i></h3>
+                <div class="categorie hide">
+                    <dl class="item">
+                        <dt>
+                            <a href="#">手机</a>
+                            <a href="#">数码</a>
+                            <a class="alink" href="#">合约机</a>
+                        </dt>
+                        <dd>
+                            <a href="#">荣耀3K</a>
+                            <a href="#">单反</a>
+                            <a href="#">智能设备</a>
+                        </dd>
+                    </dl>
+                    <dl class="item">
+                        <dt>
+                            <a href="#">电脑</a>
+                            <a href="#">硬件外设</a>
+                            <a class="alink" href="#">装机宝</a>
+                        </dt>
+                        <dd>
+                            <a href="#">笔记本</a>
+                            <a href="#">台式机</a>
+                            <a href="#">超极本</a>
+                            <a href="#">平板</a>
+                        </dd>
+                    </dl>
+                    <dl class="item">
+                        <dt>
+                            <a href="#">大家电</a>
+                        </dt>
+                        <dd>
+                            <a href="#">电视</a>
+                            <a href="#">空调</a>
+                            <a href="#">冰箱</a>
+                            <a href="#">洗衣机</a>
+                        </dd>
+                    </dl>
+                    <dl class="item">
+                        <dt>
+                            <a href="#">厨房电器</a>
+                            <a href="#">生活电器</a>
+                        </dt>
+                        <dd>
+                            <a href="#">空气净化器</a>
+                            <a href="#">微波炉</a>
+                            <a href="#">取暖设备</a>
+                        </dd>
+                    </dl>
+                    <dl class="item">
+                        <dt>
+                            <a href="#">食品/饮料/生鲜</a>
+                            <a class="alink" href="#">粮油</a>
+                        </dt>
+                        <dd>
+                            <a href="#">进口</a>
+                            <a href="#">方便面</a>
+                            <a href="#">零食</a>
+                            <a href="#">保健</a>
+                        </dd>
+                    </dl>
+                </div>
+                <div class="series hide">
+                    <div class="box">
+                        <dl class="series_item">
+                            <dt>电脑整机</dt>
+                            <dd>
+                                <a href="#">笔记本</a>
+                                <a href="#">超极本</a>
+                                <a href="#">上网本</a>
+                                <a href="#">平板电脑</a>
+                                <a href="#">台式机</a>
+                            </dd>
+                        </dl>
+                        <dl class="series_item">
+                            <dt>装机配件</dt>
+                            <dd>
+                                <a href="#">CPU</a>
+                                <a href="#">硬盘</a>
+                                <a href="#">内存</a>
+                                <a href="#">显示</a>
+                                <a href="#">智能显示器</a>
+                                <a href="#">主板</a>
+                                <a href="#">显卡</a>
+                                <a href="#">机箱</a>
+                                <a href="#">电源</a>
+                                <a href="#">散热器</a>
+                                <a href="#">刻录机/光驱</a>
+                                <a href="#">声卡</a>
+                                <a href="#">拓展卡</a>
+                                <a href="#">服务器配件</a>
+                                <a href="#">DIY小附件</a>
+                                <a href="#">装机/配件安装</a>
+                                
+                            </dd>
+                        </dl>
+                        <dl class="series_item">
+                            <dt>整机附件</dt>
+                            <dd>
+                                <a href="#">电脑包</a>
+                                <a href="#">电脑桌</a>
+                                <a href="#">电池</a>
+                                <a href="#">电源适配器</a>
+                                <a href="#">贴膜</a>
+                                <a href="#">清洁用品</a>
+                                <a href="#">笔记本散热器</a>
+                                <a href="#">USB拓展</a>
+                                <a href="#">平板配件</a>
+                                <a href="#">特色附件</a>
+                                <a href="#">插座网线/电话线</a>
+                                <a href="#">影音线材</a>
+                                <a href="#">电脑线材</a>
+                            </dd>
+                        </dl>
+                        <dl class="series_item">
+                            <dt>电脑外设</dt>
+                            <dd>
+                                <a href="#">鼠标</a>
+                                <a href="#">键盘</a>
+                                <a href="#">游戏外设</a>
+                                <a href="#">移动硬盘</a>
+                                <a href="#">摄像头</a>
+                                <a href="#">高清播放器</a>
+                                <a href="#">外置盒</a>
+                                <a href="#">移动硬盘包</a>
+                                <a href="#">手写板/绘图板</a>
+                            </dd>
+                        </dl>
+                        <dl class="series_item">
+                            <dt>网络设备</dt>
+                            <dd>
+                                <a href="#">路由器</a>
+                                <a href="#">网卡</a>
+                                <a href="#">3G无线上网</a>
+                                <a href="#">交换机</a>
+                                <a href="#">网络存储</a>
+                                <a href="#">布线工具</a>
+                                <a href="#">网络配件</a>
+                                <a href="#">正版软件</a>
+                            </dd>
+                        </dl>
+                        <dl class="series_item">
+                            <dt>音频设备</dt>
+                            <dd>
+                                <a href="#">音箱</a>
+                                <a href="#">耳机/耳麦</a>
+                                <a href="#">麦克风</a>
+                                <a href="#">声卡</a>
+                                <a href="#">音频附件</a>
+                                <a href="#">录音笔</a>
+                            </dd>
+                        </dl>
+                        <div class="series_more">
+                            <a class="series_more-btn" href="#">电脑整机频道<span></span></a>
+                            <a class="series_more-btn" href="#">硬件/外设频道<span></span></a>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+            <div class="nav left">
+                <ul class="clearfloat">
+                    <li class="active"><a href="#">天黑黑</a></li>
+                    <li><a href="#">数码城</a></li>
+                    <li><a href="#">团购</a></li>
+                    <li><a href="#">发现</a></li>
+                    <li><a href="#">二手特卖</a></li>
+                    <li><a href="#">名品会</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="index-category"></div>
+    <div class="index-category"></div>
+    <div class="index-footer hide">
+        <div class="footer-info">
+            <p>本站简介|本站公告| 招纳贤士| 联系我们|客服热线：400-675-1234</p>
+            <p>Copyright © 2006 - 2014 本站版权所有   京ICP备09037834号   京ICP证B1034-8373号   某市公安局XX分局备案编号：123456789123</p>
+        </div>
+    </div>
 </body>
 </html>
