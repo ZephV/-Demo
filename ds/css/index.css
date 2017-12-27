@@ -145,18 +145,18 @@ body {
       left: 0;
       top: 36px; }
       .index-navbar .categories .categorie .item {
-        padding: 14px 10px;
+        padding: 10px 10px;
         background: #4593fd;
         border-top: 1px solid #5aa1fe;
         border-bottom: 1px solid #3487f2; }
         .index-navbar .categories .categorie .item dt {
-          height: 20px;
+          height: 22px;
           background: url(../images/icon_triangle_r.png) right center no-repeat; }
           .index-navbar .categories .categorie .item dt a {
             font-size: 14px;
             color: #f6f9ff; }
         .index-navbar .categories .categorie .item dd {
-          height: 20px; }
+          height: 21px; }
           .index-navbar .categories .categorie .item dd a {
             font-family: "宋体";
             font-size: 12px;
@@ -186,7 +186,7 @@ body {
       top: 36px;
       left: 189px;
       border: 1px solid gray; }
-      .index-navbar .categories .series .box {
+      .index-navbar .categories .series .series_float {
         padding: 0 20px; }
       .index-navbar .categories .series dl {
         padding: 10px 0;
@@ -237,6 +237,41 @@ body {
         color: #ffffff; }
     .index-navbar .nav .active {
       background: #000; }
+
+/* 主banner区 */
+.banner_bar, .banner_imgsbox img {
+  width: 811px;
+  height: 324px; }
+
+.main_banner .banner_bar {
+  width: 811px;
+  height: 325px;
+  position: relative;
+  overflow: hidden; }
+  .main_banner .banner_bar .banner_imgsbox {
+    width: 1622px;
+    position: absolute;
+    top: 0;
+    left: 0; }
+    .main_banner .banner_bar .banner_imgsbox li {
+      float: left; }
+      .main_banner .banner_bar .banner_imgsbox li img {
+        width: 811px;
+        height: 325px; }
+  .main_banner .banner_bar .img_num {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center; }
+    .main_banner .banner_bar .img_num a {
+      display: inline-block;
+      width: 24px;
+      height: 8px;
+      margin-right: 10px;
+      background: #ffffff; }
+    .main_banner .banner_bar .img_num .active {
+      background: #ff7700; }
 
 /* 主页页脚 */
 .index-footer {

@@ -176,12 +176,12 @@ body{
             left: 0;
             top: 36px;
             .item{
-                padding: 14px 10px;
+                padding: 10px 10px;
                 background: #4593fd;
                 border-top: 1px solid #5aa1fe;
                 border-bottom: 1px solid #3487f2;
                 dt{
-                    height: 20px;
+                    height: 22px;
                     background: url(../images/icon_triangle_r.png) right center no-repeat;
                     a{  
                         font-size: 14px;
@@ -189,7 +189,7 @@ body{
                     }
                 }
                 dd{ 
-                    height: 20px;
+                    height: 21px;
                     a{  
                         font-family:"宋体";
                         font-size:12px;
@@ -227,7 +227,7 @@ body{
             top: 36px;
             left: 189px;
             border: 1px solid gray;
-            .box{
+            .series_float{
                 padding: 0 20px;
             }
             dl{
@@ -279,6 +279,7 @@ body{
             }
         }
     }
+    
     .nav{
         line-height: 36px;
         text-align: center;
@@ -294,6 +295,51 @@ body{
         }
     }
    
+}
+
+/* 主banner区 */ 
+.banner_bar,.banner_imgsbox img{
+    width: 811px;
+    height: 324px;
+}
+.main_banner{
+    .banner_bar{
+        width: 811px;
+        height: 325px;
+        position: relative;
+        overflow: hidden;
+        .banner_imgsbox{
+            width: 1622px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            li{
+                float: left;
+                img{
+                    width: 811px;
+                    height: 325px;
+                }
+            }
+        }
+        .img_num{
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+            a{
+                display:inline-block;
+                width: 24px;
+                height: 8px;
+                margin-right: 10px;;
+                background: #ffffff;
+                
+            }
+            .active{
+                background: #ff7700;
+            }
+        }
+    }
 }
 
 /* 主页页脚 */
