@@ -1,4 +1,7 @@
 
+.yl{
+    background: yellow;
+}
 /* reset.css*/ 
 
 html, body, p, ol, ul, li, dl, dt, dd, blockquote, figure, fieldset, legend, textarea, pre, iframe, hr, h1, h2, h3, h4, h5, h6 {
@@ -22,6 +25,7 @@ div{
 
 a{
     text-decoration: none;
+    color: #000000;
 }
 
 
@@ -55,6 +59,10 @@ h3{
 
 .show{
     display: block;
+}
+
+.hot{
+    color:red;
 }
 // index.css
 html{
@@ -172,6 +180,7 @@ body{
         }
         .categorie{
             position: absolute;
+            z-index:2;
             width: 100%;
             left: 0;
             top: 36px;
@@ -194,6 +203,11 @@ body{
                         font-family:"宋体";
                         font-size:12px;
                         color: #c2d9f8;
+                    }
+                }
+                a{
+                    &:hover{
+                        color:#ff7300;
                     }
                 }
                 .alink{
@@ -303,6 +317,7 @@ body{
     height: 324px;
 }
 .main_banner{
+    margin-bottom: 15px;
     .banner_bar{
         width: 811px;
         height: 325px;
@@ -342,15 +357,127 @@ body{
     }
 }
 
+
+/* floor区*/ 
+.index-floor{
+    .floor-title{
+        margin-bottom: 14px;
+        height: 45px;
+        line-height: 45px;
+        .icon{
+            width: 44px;
+            height: 45px;
+            background: url(../images/icon_floor_title.png) no-repeat;
+        }
+        h4{
+            margin-left: 12px;
+            font-size: 24px;
+            font-weight: normal;
+            a{color: #000}
+        }
+        .more{
+            margin-right: 14px;
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+
+    .floor-main{
+        margin-bottom: 15px;
+        .floor-banner{
+            height: 400px;
+            width: 190px;
+            overflow: hidden;
+            position: relative;
+            .banner-box{
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 190px;
+                .banner-item{
+                    img{
+                        height: 400px;
+                        width: 190px;
+                    }
+                }
+            }
+        }
+        .floor-item_wrap{
+            border-top:1px solid #e5e5e5;
+            border-bottom: 3px solid #ff7201;
+            .floor-item{
+                float:left;
+                width: 199px;
+                height: 397px;
+                border-right:1px solid #e5e5e5;
+                .floor-item-up{
+                    width: 199px;
+                    height: 279px;
+                    border-bottom: 1px solid #e5e5e5;
+                    text-align:center;
+                    .commodity_pic{
+                        display: inline-block;
+                        height: 151px;
+                        max-width: 136px;
+                        margin-top: 44px;
+                        margin-bottom: 22px;
+                    }
+                    .commodity_price{
+                        color: #ff7300;
+                    }
+                }
+                .floor-item-down{
+                    width: 199px;
+                    height: 116px;
+                    a{
+                        display: block;
+                        margin-top: 15px;    
+                    }
+                    .small_commodity_pic{
+                        margin-left: 8px;
+                        width: 80px;
+                        height: 86px;
+                        line-height: 86px;
+                        text-align: center;
+                        img{vertical-align:middle;}
+                    }
+                    .small_commodity_name{
+                        width: 98px;
+                        line-height:19px;
+                        margin-left: 6px;
+                        margin-right: 6px;
+                        padding-top: 12px;
+                        font-size:12px;
+                        font-family:"NSimSun";
+                        font-weight:normal;
+                    }
+                    .commodity_price{
+                        background: url(../images/icon_price_mark.png) left center no-repeat;
+                        padding-left: 12px;
+                        line-height: 22px;
+                        margin-left: 6px;
+                        font-size:16px;
+                        font-family:"Microsoft YaHei"
+                    }
+                }
+            }
+        }
+    }
+}
+
 /* 主页页脚 */
+.hr{
+    height: 35px;
+}
 .index-footer{
-    height: 223px;    
+    height: 168px;    
     background: #d4d4d4;
     text-align: center;
     font-size: 12px;
     padding-top: 1px;
     .footer-info{
         line-height: 23px;
-        margin-top: 55px;
+        padding-top: 55px;
     }
 }
