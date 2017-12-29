@@ -1,0 +1,101 @@
+/* reset.css*/
+
+html,
+body,
+p,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+blockquote,
+figure,
+fieldset,
+legend,
+textarea,
+pre,
+iframe,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Microsoft YaHei UI";
+}
+
+ul {
+    list-style: none;
+}
+
+input,
+button {
+    border: none;
+}
+
+div {
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+h3 {
+    display: inline;
+}
+
+
+/* 基础样式 */
+
+.container {
+    position: relative;
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.clearfloat:after {
+    content: "";
+    visibility: hidden;
+    height: 0;
+    display: block;
+    clear: both;
+}
+
+.clearfloat {
+    zoom: 1;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.hot {
+    color: red;
+}

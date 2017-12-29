@@ -1,0 +1,38 @@
+@charset "UTF-8";
+/*
+    产品分类页面样式 gategroy.css
+*/
+.gategroy-page {
+  margin-top: 16px; }
+  .gategroy-page .gategroies_list {
+    margin-right: 4px;
+    width: 183px;
+    border: 1px solid #d7d7d7;
+    background: #f3f3f3; }
+    .gategroy-page .gategroies_list .list-title {
+      display: block;
+      width: 183px;
+      height: 34px;
+      font-size: 14px;
+      line-height: 34px;
+      text-align: center;
+      border-bottom: 1px solid #d7d7d7; }
+    .gategroy-page .gategroies_list .item {
+      width: 165px;
+      height: 134px;
+      font-size: 12px;
+      line-height: 28px;
+      padding-left: 18px;
+      border-bottom: 1px dashed #d7d7d7; }
+      .gategroy-page .gategroies_list .item .item-title {
+        height: 28px;
+        margin-top: 3px; }
+      .gategroy-page .gategroies_list .item .item-content li {
+        line-height: 24px;
+        float: left;
+        margin-left: 2px; }
+        .gategroy-page .gategroies_list .item .item-content li a {
+          display: inline-block;
+          width: 80px; }
+
+/*# sourceMappingURL=gategroy.css.map */
