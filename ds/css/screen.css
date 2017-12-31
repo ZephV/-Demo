@@ -1,0 +1,116 @@
+@charset "UTF-8";
+/*
+    产品分类页面样式 gategroy.css
+*/
+.screen-page {
+  margin-top: 16px; }
+  .screen-page .gategroies_list {
+    margin-right: 4px;
+    width: 183px;
+    border: 1px solid #d7d7d7;
+    background: #f3f3f3; }
+    .screen-page .gategroies_list .list-title {
+      display: block;
+      width: 183px;
+      height: 34px;
+      font-size: 14px;
+      line-height: 34px;
+      text-align: center;
+      border-bottom: 1px solid #d7d7d7; }
+    .screen-page .gategroies_list .item {
+      width: 165px;
+      font-size: 12px;
+      line-height: 28px;
+      padding-left: 18px;
+      border-bottom: 1px dashed #d7d7d7; }
+      .screen-page .gategroies_list .item .item-title {
+        height: 28px;
+        margin-top: 3px; }
+      .screen-page .gategroies_list .item .item-content {
+        padding-bottom: 10px; }
+        .screen-page .gategroies_list .item .item-content li {
+          padding-left: 8px;
+          line-height: 22px;
+          margin-left: 2px; }
+          .screen-page .gategroies_list .item .item-content li a {
+            display: inline-block;
+            width: 80px; }
+      .screen-page .gategroies_list .item:last-child {
+        background: #000; }
+    .screen-page .gategroies_list .goods_item {
+      height: 80px;
+      background: #ffffff; }
+      .screen-page .gategroies_list .goods_item .pic {
+        width: 80px;
+        line-height: 80px;
+        text-align: center; }
+        .screen-page .gategroies_list .goods_item .pic img {
+          vertical-align: middle; }
+      .screen-page .gategroies_list .goods_item .title {
+        padding-top: 10px;
+        font-size: 12px;
+        line-height: 18px; }
+        .screen-page .gategroies_list .goods_item .title a {
+          color: #999; }
+      .screen-page .gategroies_list .goods_item .price {
+        line-height: 18px;
+        font-size: 12px;
+        color: #666; }
+  .screen-page .gategroies_main .banner {
+    margin-bottom: 5px; }
+  .screen-page .gategroies_main .subsection {
+    width: 811px; }
+    .screen-page .gategroies_main .subsection .section_title {
+      width: 811px;
+      height: 34px;
+      border-bottom: 2px solid #cccccc; }
+      .screen-page .gategroies_main .subsection .section_title h3 {
+        display: inline-block;
+        width: 179px;
+        line-height: 34px;
+        font-size: 14px;
+        font-weight: bold;
+        border-bottom: 2px solid #096dba;
+        text-indent: 9px; }
+    .screen-page .gategroies_main .subsection .section_item {
+      width: 168px;
+      height: 282px;
+      margin: 0 16px;
+      float: left; }
+      .screen-page .gategroies_main .subsection .section_item .pic {
+        width: 168px;
+        display: inline-block;
+        height: 154px;
+        line-height: 172px;
+        text-align: center; }
+        .screen-page .gategroies_main .subsection .section_item .pic img {
+          vertical-align: middle; }
+      .screen-page .gategroies_main .subsection .section_item .tilte {
+        display: inline-block;
+        width: 168px;
+        height: 36px;
+        margin-bottom: 10px;
+        font-size: 12px;
+        color: #000000;
+        overflow: hidden;
+        line-height: 18px; }
+      .screen-page .gategroies_main .subsection .section_item .price {
+        font-size: 14px;
+        font-weight: bold;
+        color: #d4105a;
+        margin: 8px 0; }
+      .screen-page .gategroies_main .subsection .section_item .rate {
+        font-size: 14px;
+        line-height: 14px;
+        padding-bottom: 18px; }
+        .screen-page .gategroies_main .subsection .section_item .rate .star {
+          margin-right: 5px; }
+          .screen-page .gategroies_main .subsection .section_item .rate .star i {
+            display: inline-block;
+            width: 65px;
+            height: 12px;
+            background: url(../images/star.png); }
+        .screen-page .gategroies_main .subsection .section_item .rate a {
+          color: #085c9b; }
+
+/*# sourceMappingURL=screen.css.map */

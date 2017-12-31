@@ -1,0 +1,149 @@
+/*
+    产品分类页面样式 gategroy.css
+*/
+
+// 变量
+$bdcolor:#d7d7d7;
+$mainbbc:#096dba;
+////
+.screen-page {
+    margin-top: 16px;
+    .gategroies_list {
+        margin-right: 4px;
+        width: 183px;
+        border: 1px solid $bdcolor;
+        background: #f3f3f3;
+        .list-title {
+            display: block;
+            width: 183px;
+            height: 34px;
+            font-size: 14px;
+            line-height: 34px;
+            text-align: center;
+            border-bottom: 1px solid $bdcolor;
+        }
+        .item {
+            width: 165px;
+            font-size: 12px;
+            line-height: 28px;
+            padding-left: 18px;
+            border-bottom: 1px dashed $bdcolor;
+            .item-title {
+                height: 28px;
+                margin-top: 3px;
+            }
+            .item-content {
+                padding-bottom: 10px;
+                li {
+                    padding-left: 8px;
+                    ;
+                    line-height: 22px;
+                    margin-left: 2px;
+                    a {
+                        display: inline-block;
+                        width: 80px;
+                    }
+                }
+            }
+            &:last-child {
+                background: #000;
+            }
+        }
+        .goods_item {
+            height: 80px;
+            background: #ffffff;
+            .pic {
+                width: 80px;
+                line-height: 80px;
+                text-align: center;
+                img {
+                    vertical-align: middle;
+                }
+            }
+            .title {
+                padding-top: 10px;
+                font-size: 12px;
+                line-height: 18px;
+                a {
+                    color: #999;
+                }
+            }
+            .price {
+                line-height: 18px;
+                font-size: 12px;
+                color: #666;
+            }
+        }
+    }
+    .gategroies_main {
+        .banner {
+            margin-bottom: 5px;
+        }
+        .subsection {
+            width: 811px;
+            .section_title {
+                width: 811px;
+                height: 34px;
+                border-bottom: 2px solid #cccccc;
+                h3 {
+                    display: inline-block;
+                    width: 179px;
+                    line-height: 34px;
+                    font-size: 14px;
+                    font-weight: bold;
+                    border-bottom: 2px solid $mainbbc;
+                    text-indent: 9px;
+                }
+            }
+            .section_item {
+                width: 168px;
+                height: 282px;
+                margin: 0 16px;
+                float: left;
+                .pic {
+                    width: 168px;
+                    display: inline-block;
+                    height: 154px;
+                    line-height: 172px;
+                    text-align: center;
+                    img {
+                        vertical-align: middle;
+                    }
+                }
+                .tilte {
+                    display: inline-block;
+                    width: 168px;
+                    height: 36px;
+                    margin-bottom: 10px;
+                    font-size: 12px;
+                    color: #000000;
+                    overflow: hidden;
+                    line-height: 18px;
+                }
+                .price {
+                    font-size: 14px;
+                    font-weight: bold;
+                    color: #d4105a;
+                    margin: 8px 0;
+                }
+                .rate {
+                    font-size: 14px;
+                    line-height: 14px;
+                    padding-bottom: 18px;
+                    .star {
+                        margin-right: 5px;
+                        i {
+                            display: inline-block;
+                            width: 65px;
+                            height: 12px;
+                            background: url(../images/star.png);
+                        }
+                    }
+                    a {
+                        color: #085c9b;
+                    }
+                }
+            }
+        }
+    }
+}
