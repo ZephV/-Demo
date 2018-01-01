@@ -8,6 +8,7 @@ $mainbbc:#096dba;
 ////
 .screen-page {
     margin-top: 16px;
+    font-size: 12px;
     .gategroies_list {
         margin-right: 4px;
         width: 183px;
@@ -46,7 +47,7 @@ $mainbbc:#096dba;
                 }
             }
             &:last-child {
-                background: #000;
+                border-bottom: 1px solid $bdcolor;
             }
         }
         .goods_item {
@@ -71,76 +72,127 @@ $mainbbc:#096dba;
             .price {
                 line-height: 18px;
                 font-size: 12px;
-                color: #666;
+                color: #ddd;
             }
         }
     }
-    .gategroies_main {
-        .banner {
-            margin-bottom: 5px;
+    .screen_main {
+        width: 796px;
+        margin-bottom: 14px;
+        dl {
+            width: 797px;
         }
-        .subsection {
-            width: 811px;
-            .section_title {
-                width: 811px;
-                height: 34px;
-                border-bottom: 2px solid #cccccc;
-                h3 {
-                    display: inline-block;
-                    width: 179px;
-                    line-height: 34px;
-                    font-size: 14px;
-                    font-weight: bold;
-                    border-bottom: 2px solid $mainbbc;
-                    text-indent: 9px;
+        dt {
+            font-size: 12px;
+            text-align: right;
+            width: 75px;
+            margin-right: 40px;
+            line-height: 32px;
+        }
+        dd {
+            line-height: 32px;
+            font-size: 12px;
+            a {
+                padding: 3px;
+            }
+        }
+        .screen_list-top,
+        .screen_list-bottom {
+            border-bottom: 1px solid #ddd;
+        }
+        .screen_list-item {
+            border-bottom: 1px dashed #ddd;
+        }
+        .limit {
+            width: 55px;
+        }
+        .screen_content {
+            width: 500px;
+            ul {
+                width: 526px;
+                li {
+                    text-align: left;
+                    float: left;
+                    width: 25%;
+                    a {
+                        color: #1d7ad9;
+                    }
                 }
             }
-            .section_item {
-                width: 168px;
-                height: 282px;
-                margin: 0 16px;
+        }
+        .screen_content-bottom {
+            li {
                 float: left;
-                .pic {
-                    width: 168px;
+                margin-right: 9px;
+                a {
                     display: inline-block;
-                    height: 154px;
-                    line-height: 172px;
-                    text-align: center;
-                    img {
+                    height: 23px;
+                    margin: 7px 0;
+                    border: 1px solid #ccc;
+                    line-height: 23px;
+                    text-indent: 10px;
+                    i {
+                        display: inline-block;
+                        width: 7px;
+                        height: 5px;
                         vertical-align: middle;
+                        margin: 0 5px;
+                        background: url(../images/icon_v_gray.png) no-repeat;
                     }
                 }
-                .tilte {
-                    display: inline-block;
-                    width: 168px;
-                    height: 36px;
-                    margin-bottom: 10px;
-                    font-size: 12px;
-                    color: #000000;
-                    overflow: hidden;
-                    line-height: 18px;
+            }
+        }
+        .more {
+            width: 43px;
+            height: 32px;
+            line-height: 32px;
+            i {
+                vertical-align: middle;
+                display: inline-block;
+                width: 7px;
+                height: 5px;
+                margin-left: 4px;
+                background: url(../images/icon_v_gray.png) left center no-repeat;
+            }
+        }
+        /* 状态类 */
+        .active {
+            background: $mainbbc;
+            color: #fff;
+        }
+    }
+    .screen_page-content {
+        width: 796px;
+        line-height: 31px;
+        background: #f5f5f5;
+        .local_stocks {
+            height: 31px;
+            width: 795px;
+            border: 1px solid #d9d9d9;
+            .local {
+                select {
+                    background: #ffffff url("http://ourjs.github.io/static/2015/arrow.png") no-repeat scroll right center transparent;
                 }
-                .price {
-                    font-size: 14px;
-                    font-weight: bold;
-                    color: #d4105a;
-                    margin: 8px 0;
+                span {
+                    margin-left: 8px;
                 }
-                .rate {
-                    font-size: 14px;
-                    line-height: 14px;
-                    padding-bottom: 18px;
-                    .star {
-                        margin-right: 5px;
-                        i {
-                            display: inline-block;
-                            width: 65px;
-                            height: 12px;
-                            background: url(../images/star.png);
-                        }
-                    }
-                    a {
-                        color: #085c9b;
+            }
+            .stocks {
+                input,
+                label {
+                    vertical-align: middle;
+                }
+                label {
+                    margin-right: 12px;
+                }
+                span {
+                    color: #999;
+                    margin-right: 12px;
+                    em {
+                        margin-left: 4px;
+                        margin-right: 2px;
+                        font-style: normal;
+                        color: #d80000;
                     }
                 }
             }
