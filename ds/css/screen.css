@@ -2,6 +2,10 @@
 /*
     产品分类页面样式 gategroy.css
 */
+.hr_25 {
+  display: block;
+  height: 25px; }
+
 .screen-page {
   margin-top: 16px;
   font-size: 12px; }
@@ -123,12 +127,12 @@
       background: #096dba;
       color: #fff; }
   .screen-page .screen_page-content {
-    width: 796px;
-    line-height: 31px;
-    background: #f5f5f5; }
+    width: 795px;
+    line-height: 31px; }
     .screen-page .screen_page-content .local_stocks {
       height: 31px;
       width: 795px;
+      background: #f5f5f5;
       border: 1px solid #d9d9d9; }
       .screen-page .screen_page-content .local_stocks .local select {
         background: #ffffff url("http://ourjs.github.io/static/2015/arrow.png") no-repeat scroll right center transparent; }
@@ -147,5 +151,65 @@
           margin-right: 2px;
           font-style: normal;
           color: #d80000; }
+    .screen-page .screen_page-content .screen_content {
+      width: 795px; }
+      .screen-page .screen_page-content .screen_content .screen_content-item {
+        width: 265px;
+        margin-bottom: 5px;
+        float: left; }
+        .screen-page .screen_page-content .screen_content .screen_content-item .pic {
+          display: inline-block;
+          width: 265px;
+          height: 257px;
+          text-align: center; }
+          .screen-page .screen_page-content .screen_content .screen_content-item .pic img {
+            vertical-align: middle; }
+        .screen-page .screen_page-content .screen_content .screen_content-item .title {
+          height: 36px;
+          width: 198px;
+          margin-left: 59px;
+          line-height: 18px; }
+        .screen-page .screen_page-content .screen_content .screen_content-item .price {
+          line-height: 18px;
+          margin-top: 7px;
+          margin-bottom: 8px;
+          margin-left: 59px; }
+          .screen-page .screen_page-content .screen_content .screen_content-item .price span {
+            margin-right: 9px;
+            font-weight: bold;
+            color: #d70000; }
+          .screen-page .screen_page-content .screen_content .screen_content-item .price em {
+            font-style: normal;
+            color: #1d7ad9; }
+        .screen-page .screen_page-content .screen_content .screen_content-item .add_shopcar {
+          width: 88px;
+          height: 22px;
+          margin-left: 63px;
+          border: 1px solid #c3d5e7;
+          line-height: 22px;
+          color: #3b77bf; }
+          .screen-page .screen_page-content .screen_content .screen_content-item .add_shopcar span {
+            display: inline-block;
+            width: 13px;
+            height: 12px;
+            margin-left: 6px;
+            margin-right: 4px;
+            vertical-align: middle;
+            background: url(../images/blue-shopcar.png) no-repeat; }
+      .screen-page .screen_page-content .screen_content .page {
+        margin-left: 63px; }
+        .screen-page .screen_page-content .screen_content .page .page_num_btn {
+          text-align: center; }
+          .screen-page .screen_page-content .screen_content .page .page_num_btn a {
+            display: inline-block;
+            line-height: 26px;
+            padding: 0px 12px;
+            border: 1px solid #999;
+            margin-right: 5px; }
+        .screen-page .screen_page-content .screen_content .page .jump_num span {
+          line-height: 22px; }
+        .screen-page .screen_page-content .screen_content .page .jump_num input {
+          display: inline-block;
+          padding: 0 15px; }
 
 /*# sourceMappingURL=screen.css.map */

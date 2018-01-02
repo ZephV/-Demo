@@ -6,6 +6,11 @@
 $bdcolor:#d7d7d7;
 $mainbbc:#096dba;
 ////
+.hr_25 {
+    display: block;
+    height: 25px;
+}
+
 .screen-page {
     margin-top: 16px;
     font-size: 12px;
@@ -162,12 +167,12 @@ $mainbbc:#096dba;
         }
     }
     .screen_page-content {
-        width: 796px;
+        width: 795px;
         line-height: 31px;
-        background: #f5f5f5;
         .local_stocks {
             height: 31px;
             width: 795px;
+            background: #f5f5f5;
             border: 1px solid #d9d9d9;
             .local {
                 select {
@@ -193,6 +198,83 @@ $mainbbc:#096dba;
                         margin-right: 2px;
                         font-style: normal;
                         color: #d80000;
+                    }
+                }
+            }
+        }
+        .screen_content {
+            width: 795px;
+            .screen_content-item {
+                width: 265px;
+                margin-bottom: 5px;
+                float: left;
+                .pic {
+                    display: inline-block;
+                    width: 265px;
+                    height: 257px;
+                    text-align: center;
+                    img {
+                        vertical-align: middle;
+                    }
+                }
+                .title {
+                    height: 36px;
+                    width: 198px;
+                    margin-left: 59px;
+                    line-height: 18px;
+                }
+                .price {
+                    line-height: 18px;
+                    margin-top: 7px;
+                    margin-bottom: 8px;
+                    margin-left: 59px;
+                    span {
+                        margin-right: 9px;
+                        font-weight: bold;
+                        color: #d70000;
+                    }
+                    em {
+                        font-style: normal;
+                        color: #1d7ad9;
+                    }
+                }
+                .add_shopcar {
+                    width: 88px;
+                    height: 22px;
+                    margin-left: 63px;
+                    border: 1px solid #c3d5e7;
+                    line-height: 22px;
+                    color: #3b77bf;
+                    span {
+                        display: inline-block;
+                        width: 13px;
+                        height: 12px;
+                        margin-left: 6px;
+                        margin-right: 4px;
+                        vertical-align: middle;
+                        background: url(../images/blue-shopcar.png) no-repeat;
+                    }
+                }
+            }
+            .page {
+                margin-left: 63px;
+                .page_num_btn {
+                    text-align: center;
+                    a {
+                        display: inline-block;
+                        line-height: 26px;
+                        padding: 0px 12px;
+                        border: 1px solid #999;
+                        margin-right: 5px;
+                    }
+                }
+                .jump_num {
+                    span {
+                        line-height: 22px;
+                    }
+                    input {
+                        display: inline-block;
+                        padding: 0 15px;
                     }
                 }
             }
