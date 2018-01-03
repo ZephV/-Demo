@@ -128,7 +128,8 @@
       color: #fff; }
   .screen-page .screen_page-content {
     width: 795px;
-    line-height: 31px; }
+    line-height: 31px;
+    border-bottom: 1px solid #d9d9d9; }
     .screen-page .screen_page-content .local_stocks {
       height: 31px;
       width: 795px;
@@ -196,20 +197,31 @@
             margin-right: 4px;
             vertical-align: middle;
             background: url(../images/blue-shopcar.png) no-repeat; }
-      .screen-page .screen_page-content .screen_content .page {
-        margin-left: 63px; }
-        .screen-page .screen_page-content .screen_content .page .page_num_btn {
-          text-align: center; }
-          .screen-page .screen_page-content .screen_content .page .page_num_btn a {
-            display: inline-block;
-            line-height: 26px;
-            padding: 0px 12px;
-            border: 1px solid #999;
-            margin-right: 5px; }
-        .screen-page .screen_page-content .screen_content .page .jump_num span {
-          line-height: 22px; }
-        .screen-page .screen_page-content .screen_content .page .jump_num input {
+    .screen-page .screen_page-content .page {
+      margin-left: 63px; }
+      .screen-page .screen_page-content .page .page_num_btn {
+        text-align: center; }
+        .screen-page .screen_page-content .page .page_num_btn a {
           display: inline-block;
-          padding: 0 15px; }
+          line-height: 26px;
+          padding: 0px 12px;
+          border: 1px solid #999;
+          margin-right: 5px; }
+        .screen-page .screen_page-content .page .page_num_btn .hl {
+          display: inline-block;
+          line-height: 26px;
+          padding: 0px 12px;
+          margin-right: 5px; }
+      .screen-page .screen_page-content .page .jump_page {
+        margin-bottom: 20px; }
+        .screen-page .screen_page-content .page .jump_page .jump_page-font {
+          line-height: 22px; }
+        .screen-page .screen_page-content .page .jump_page .page_num {
+          height: 22px;
+          width: 35px;
+          line-height: 22px;
+          margin: 0 3px;
+          border: 1px solid #CCC;
+          text-align: center; }
 
 /*# sourceMappingURL=screen.css.map */
