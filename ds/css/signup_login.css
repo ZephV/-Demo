@@ -1,0 +1,73 @@
+.wrap {
+  margin: 0 auto;
+  width: 630px; }
+
+.hr_15 {
+  height: 15px; }
+
+.header {
+  height: 86px;
+  background: #1d7ad9;
+  line-height: 86px; }
+  .header .logo {
+    display: inline-block;
+    width: 89px;
+    height: 41px;
+    margin-left: 54px;
+    vertical-align: middle;
+    background: url(../images/logo.png) no-repeat; }
+  .header h3 {
+    margin-left: 24px;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: normal;
+    font-family: "Microsoft YaHei"; }
+
+.main {
+  border: 1px solid #dddddd; }
+  .main .signup_form {
+    width: 400px;
+    margin-right: 150px;
+    margin-top: 40px; }
+    .main .signup_form .signup_form-item {
+      height: 38px;
+      text-align: right;
+      margin-bottom: 31px;
+      font-family: "NSimSun";
+      font-size: 14px;
+      color: #999999; }
+      .main .signup_form .signup_form-item i {
+        margin-right: 5px;
+        color: #ff0000; }
+      .main .signup_form .signup_form-item .signup_form-item-title {
+        display: inline-block;
+        height: 36px;
+        line-height: 36px;
+        margin-right: 18px; }
+      .main .signup_form .signup_form-item .signup_input {
+        width: 259px;
+        height: 36px;
+        padding: 0 5px;
+        border: 1px solid #999999;
+        line-height: 36;
+        text-align: left; }
+  .main .agreement {
+    font-size: 12px;
+    margin-left: 200px;
+    line-height: 13px;
+    margin-top: 22px; }
+    .main .agreement input {
+      vertical-align: middle; }
+    .main .agreement a {
+      margin: 0 5px;
+      color: #005aa0; }
+  .main .sign_up_btn {
+    margin-left: 200px;
+    margin-top: 30px;
+    margin-bottom: 55px;
+    width: 270px;
+    height: 38px;
+    text-align: center;
+    background: url(../images/btn_bg.png) no-repeat; }
+
+/*# sourceMappingURL=signup_login.css.map */
