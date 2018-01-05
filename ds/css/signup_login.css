@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .wrap {
   margin: 0 auto;
   width: 630px; }
@@ -23,6 +24,7 @@
     font-weight: normal;
     font-family: "Microsoft YaHei"; }
 
+/* 注册页面样式 */
 .main {
   border: 1px solid #dddddd; }
   .main .signup_form {
@@ -69,5 +71,79 @@
     height: 38px;
     text-align: center;
     background: url(../images/btn_bg.png) no-repeat; }
+
+/* 登录页面样式 */
+.login_page {
+  margin: 0 auto;
+  width: 460px;
+  font-size: 12px;
+  border: 1px solid #dddddd; }
+  .login_page .login_page_wrap {
+    margin-left: 84px;
+    margin-top: 38px; }
+  .login_page p {
+    margin: 0;
+    padding: 0;
+    line-height: 20px;
+    color: #999999; }
+  .login_page .login_page-input_txt {
+    width: 264px;
+    height: 32px;
+    margin-bottom: 11px;
+    border: 1px solid #999;
+    color: #000;
+    line-height: 32px;
+    padding-left: 3px;
+    padding-right: 38px; }
+  .login_page .user_input {
+    background: url(../images/loginpage_user_icon.png) 278px center no-repeat; }
+  .login_page .psw_input {
+    background: url(../images/loginpage_pasw_icon.png) 278px center no-repeat; }
+  .login_page .checkbox_box {
+    margin-top: 6px;
+    margin-bottom: 19px;
+    height: 31px;
+    line-height: 31px; }
+    .login_page .checkbox_box .checkbox {
+      width: 11px;
+      height: 11px;
+      vertical-align: middle; }
+    .login_page .checkbox_box label {
+      margin: 0;
+      margin-right: 6px; }
+  .login_page .login_btn {
+    width: 307px;
+    height: 34px;
+    margin-bottom: 30px;
+    border: 1px solid #d0e4f9;
+    line-height: 34px;
+    text-align: center;
+    border-radius: 5px;
+    background: url(../images/longinpage_btn_bg.png); }
+  .login_page .oauth {
+    margin-bottom: 20px; }
+    .login_page .oauth li {
+      float: left;
+      padding: 0 5px;
+      border-right: 1px solid #ccc; }
+      .login_page .oauth li:last-child {
+        border: none; }
+
+.signup_free_box {
+  margin: 0 auto;
+  width: 460px; }
+  .signup_free_box .signup_free {
+    width: 115px;
+    height: 31px;
+    margin-right: 41px;
+    line-height: 31px;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    background: #7cbe56;
+    border-radius: 0 0 3px 3px; }
+
+.hr_82 {
+  height: 82px; }
 
 /*# sourceMappingURL=signup_login.css.map */
