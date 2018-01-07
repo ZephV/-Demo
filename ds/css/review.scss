@@ -1,3 +1,9 @@
+$wryh:'Microsoft YaHei'; //微软雅黑
+$st:'SimSun'; //宋体
+$xst:'NSimSun'; //新宋体
+$ht:'SimHei'; //黑体
+$fs:'FangSong'; //仿宋
+$yoy:'YouYuan'; //幼圆
 .review_main,
 .hr {
     background: #f0f0f0;
@@ -20,7 +26,121 @@
 
 .detail {
     border: 1px solid #cccccc;
+    background: #ffffff;
     .item_info_l {
+        border-right: 1px solid #cccccc;
         width: 309px;
+        height: 100%;
+        .preview {
+            width: 309px;
+            height: 328px;
+            line-height: 341px;
+            text-align: center;
+            img {
+                max-width: 309px;
+                vertical-align: middle;
+            }
+        }
+        .preview_list {
+            margin-left: 21px;
+            height: 52px;
+            padding: 13px 0;
+            .preview_list-item {
+                float: left;
+                width: 52px;
+                height: 52px;
+                border: 1px solid #ccc;
+                border-collapse: collapse;
+                text-align: center;
+                img {
+                    max-width: 52px;
+                    max-height: 52px;
+                    vertical-align: middle;
+                }
+            }
+        }
+    }
+    .item_info_r {
+        .des_wrap {
+            padding: 10px;
+            width: 668px;
+        }
+        .title {
+            display: inline-block;
+            padding: 15px 14px;
+            line-height: 22px;
+            font-size: 16px;
+            margin-top: 3px;
+            margin-bottom: 10px;
+        }
+        .dl {
+            margin-bottom: 16px;
+            color: #666666;
+            .dt,
+            .dd {
+                font-size: 12px;
+                font-family: $xst;
+                float: left;
+            }
+            .dt {
+                width: 62px;
+                height: 100%;
+                text-indent: 14px;
+            }
+            //price
+            .price_title {
+                line-height: 33px;
+            }
+            .price {
+                color: #d70000;
+                font-weight: bold;
+                font-family: $wryh;
+                font-size: 22px;
+                line-height: 23px;
+                em {
+                    line-height: 33px;
+                    font-style: normal;
+                    font-size: 12px;
+                }
+            }
+            //hg
+            .hg_title {
+                line-height: 18px;
+            }
+            .hg {
+                line-height: 18px;
+                .hg_tag {
+                    display: inline-block;
+                    margin: 0 4px;
+                    width: 54px;
+                    height: 18px;
+                    font-style: normal;
+                    color: #fff;
+                    text-indent: 14px;
+                    background: url(../images/reviewpage_orange_tag.png) no-repeat;
+                }
+            }
+        }
+        //shopping_select_wrap
+        .shopping_select_wrap {}
+        // .price {
+        //     display: inline-block;
+        //     color: #d70000;
+        //     font-weight: bold;
+        //     font-family: $wryh;
+        //     font-size: 22px;
+        //     em {
+        //         font-style: normal;
+        //         font-size: 12px;
+        //     } //
+        // }
+        // .hg {
+        //     .hg_tag {
+        //         display: inline-block;
+        //         width: 54px;
+        //         height: 18px;
+        //         background: url(../images/reviewpage_orange_tag.png) no-repeat;
+        //     }
+        // }
     }
 }

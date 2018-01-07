@@ -15,8 +15,81 @@
     margin: 0 7px; }
 
 .detail {
-  border: 1px solid #cccccc; }
+  border: 1px solid #cccccc;
+  background: #ffffff; }
   .detail .item_info_l {
-    width: 309px; }
+    border-right: 1px solid #cccccc;
+    width: 309px;
+    height: 100%; }
+    .detail .item_info_l .preview {
+      width: 309px;
+      height: 328px;
+      line-height: 341px;
+      text-align: center; }
+      .detail .item_info_l .preview img {
+        max-width: 309px;
+        vertical-align: middle; }
+    .detail .item_info_l .preview_list {
+      margin-left: 21px;
+      height: 52px;
+      padding: 13px 0; }
+      .detail .item_info_l .preview_list .preview_list-item {
+        float: left;
+        width: 52px;
+        height: 52px;
+        border: 1px solid #ccc;
+        border-collapse: collapse;
+        text-align: center; }
+        .detail .item_info_l .preview_list .preview_list-item img {
+          max-width: 52px;
+          max-height: 52px;
+          vertical-align: middle; }
+  .detail .item_info_r .des_wrap {
+    padding: 10px;
+    width: 668px; }
+  .detail .item_info_r .title {
+    display: inline-block;
+    padding: 15px 14px;
+    line-height: 22px;
+    font-size: 16px;
+    margin-top: 3px;
+    margin-bottom: 10px; }
+  .detail .item_info_r .dl {
+    margin-bottom: 16px;
+    color: #666666; }
+    .detail .item_info_r .dl .dt,
+    .detail .item_info_r .dl .dd {
+      font-size: 12px;
+      font-family: "NSimSun";
+      float: left; }
+    .detail .item_info_r .dl .dt {
+      width: 62px;
+      height: 100%;
+      text-indent: 14px; }
+    .detail .item_info_r .dl .price_title {
+      line-height: 33px; }
+    .detail .item_info_r .dl .price {
+      color: #d70000;
+      font-weight: bold;
+      font-family: "Microsoft YaHei";
+      font-size: 22px;
+      line-height: 23px; }
+      .detail .item_info_r .dl .price em {
+        line-height: 33px;
+        font-style: normal;
+        font-size: 12px; }
+    .detail .item_info_r .dl .hg_title {
+      line-height: 18px; }
+    .detail .item_info_r .dl .hg {
+      line-height: 18px; }
+      .detail .item_info_r .dl .hg .hg_tag {
+        display: inline-block;
+        margin: 0 4px;
+        width: 54px;
+        height: 18px;
+        font-style: normal;
+        color: #fff;
+        text-indent: 14px;
+        background: url(../images/reviewpage_orange_tag.png) no-repeat; }
 
 /*# sourceMappingURL=review.css.map */
