@@ -71,7 +71,6 @@ $yoy:'YouYuan'; //幼圆
             line-height: 22px;
             font-size: 16px;
             margin-top: 3px;
-            margin-bottom: 10px;
         }
         .dl {
             margin-bottom: 16px;
@@ -83,7 +82,7 @@ $yoy:'YouYuan'; //幼圆
                 float: left;
             }
             .dt {
-                width: 62px;
+                width: 75px;
                 height: 100%;
                 text-indent: 14px;
             }
@@ -122,25 +121,89 @@ $yoy:'YouYuan'; //幼圆
             }
         }
         //shopping_select_wrap
-        .shopping_select_wrap {}
-        // .price {
-        //     display: inline-block;
-        //     color: #d70000;
-        //     font-weight: bold;
-        //     font-family: $wryh;
-        //     font-size: 22px;
-        //     em {
-        //         font-style: normal;
-        //         font-size: 12px;
-        //     } //
-        // }
-        // .hg {
-        //     .hg_tag {
-        //         display: inline-block;
-        //         width: 54px;
-        //         height: 18px;
-        //         background: url(../images/reviewpage_orange_tag.png) no-repeat;
-        //     }
-        // }
+        .shopping_select_wrap {
+            box-sizing: border-box;
+            width: 668px;
+            padding: 18px 0;
+            background: #f2f2f2;
+            .arrive_title,
+            .in_stock {
+                line-height: 24px;
+            }
+            .select {
+                width: 130px;
+                height: 22px;
+                background: #fff;
+                line-height: 22px;
+                padding-left: 6px;
+                padding-right: 27px;
+                position: relative;
+                z-index: 4;
+                border: 1px solid #bfbfbf;
+                .select_local,
+                h3 {
+                    font-weight: normal;
+                    font-family: $xst;
+                    font-size: 12px;
+                }
+                .icon_triangle {
+                    position: absolute;
+                    top: 9px;
+                    right: 9px;
+                    display: inline-block;
+                    width: 0px;
+                    height: 0;
+                    border-top: 4px solid #317ee7;
+                    border-left: 4px solid transparent;
+                    border-right: 4px solid transparent;
+                }
+            }
+            .select_local-list {
+                width: 100%;
+                background: #fff;
+                position: absolute;
+                left: -1px;
+                top: 22px;
+                border: 1px solid #bfbfbf;
+            }
+            .select_local-item {
+                margin-left: 6px;
+            }
+            .in_stock {
+                margin-left: 12px;
+            }
+            .color_select-title {
+                line-height: 34px;
+            }
+            .color_select,
+            .format_select {
+                display: inline-block;
+                background: #fff;
+                border: 1px solid #bfbfbf;
+                text-align: center;
+                &:hover {
+                    border: 1px solid #317ee7;
+                    cursor: pointer;
+                }
+            }
+            .color_select {
+                padding: 0 28px;
+                height: 32px;
+                line-height: 32px;
+            }
+            .format_select-title {
+                line-height: 60px;
+            }
+            .format_select-list {
+                width: 510px;
+                .format_select {
+                    padding: 0 8px;
+                    height: 24px;
+                    line-height: 24px;
+                    margin-bottom: 8px;
+                    margin-right: 10px;
+                }
+            }
+        }
     }
 }

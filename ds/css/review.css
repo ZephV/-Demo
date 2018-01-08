@@ -52,8 +52,7 @@
     padding: 15px 14px;
     line-height: 22px;
     font-size: 16px;
-    margin-top: 3px;
-    margin-bottom: 10px; }
+    margin-top: 3px; }
   .detail .item_info_r .dl {
     margin-bottom: 16px;
     color: #666666; }
@@ -63,7 +62,7 @@
       font-family: "NSimSun";
       float: left; }
     .detail .item_info_r .dl .dt {
-      width: 62px;
+      width: 75px;
       height: 100%;
       text-indent: 14px; }
     .detail .item_info_r .dl .price_title {
@@ -91,5 +90,75 @@
         color: #fff;
         text-indent: 14px;
         background: url(../images/reviewpage_orange_tag.png) no-repeat; }
+  .detail .item_info_r .shopping_select_wrap {
+    box-sizing: border-box;
+    width: 668px;
+    padding: 18px 0;
+    background: #f2f2f2; }
+    .detail .item_info_r .shopping_select_wrap .arrive_title,
+    .detail .item_info_r .shopping_select_wrap .in_stock {
+      line-height: 24px; }
+    .detail .item_info_r .shopping_select_wrap .select {
+      width: 130px;
+      height: 22px;
+      background: #fff;
+      line-height: 22px;
+      padding-left: 6px;
+      padding-right: 27px;
+      position: relative;
+      z-index: 4;
+      border: 1px solid #bfbfbf; }
+      .detail .item_info_r .shopping_select_wrap .select .select_local,
+      .detail .item_info_r .shopping_select_wrap .select h3 {
+        font-weight: normal;
+        font-family: "NSimSun";
+        font-size: 12px; }
+      .detail .item_info_r .shopping_select_wrap .select .icon_triangle {
+        position: absolute;
+        top: 9px;
+        right: 9px;
+        display: inline-block;
+        width: 0px;
+        height: 0;
+        border-top: 4px solid #317ee7;
+        border-left: 4px solid transparent;
+        border-right: 4px solid transparent; }
+    .detail .item_info_r .shopping_select_wrap .select_local-list {
+      width: 100%;
+      background: #fff;
+      position: absolute;
+      left: -1px;
+      top: 22px;
+      border: 1px solid #bfbfbf; }
+    .detail .item_info_r .shopping_select_wrap .select_local-item {
+      margin-left: 6px; }
+    .detail .item_info_r .shopping_select_wrap .in_stock {
+      margin-left: 12px; }
+    .detail .item_info_r .shopping_select_wrap .color_select-title {
+      line-height: 34px; }
+    .detail .item_info_r .shopping_select_wrap .color_select,
+    .detail .item_info_r .shopping_select_wrap .format_select {
+      display: inline-block;
+      background: #fff;
+      border: 1px solid #bfbfbf;
+      text-align: center; }
+      .detail .item_info_r .shopping_select_wrap .color_select:hover,
+      .detail .item_info_r .shopping_select_wrap .format_select:hover {
+        border: 1px solid #317ee7;
+        cursor: pointer; }
+    .detail .item_info_r .shopping_select_wrap .color_select {
+      padding: 0 28px;
+      height: 32px;
+      line-height: 32px; }
+    .detail .item_info_r .shopping_select_wrap .format_select-title {
+      line-height: 60px; }
+    .detail .item_info_r .shopping_select_wrap .format_select-list {
+      width: 510px; }
+      .detail .item_info_r .shopping_select_wrap .format_select-list .format_select {
+        padding: 0 8px;
+        height: 24px;
+        line-height: 24px;
+        margin-bottom: 8px;
+        margin-right: 10px; }
 
 /*# sourceMappingURL=review.css.map */
