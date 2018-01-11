@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .review_main,
 .hr {
   background: #f0f0f0; }
@@ -16,9 +17,9 @@
 
 .detail {
   border: 1px solid #cccccc;
-  background: #ffffff; }
+  background: #ffffff;
+  margin-bottom: 14px; }
   .detail .item_info_l {
-    border-right: 1px solid #cccccc;
     width: 309px;
     height: 100%; }
     .detail .item_info_l .preview {
@@ -46,7 +47,8 @@
           vertical-align: middle; }
   .detail .item_info_r .des_wrap {
     padding: 10px;
-    width: 668px; }
+    width: 667px;
+    border-left: 1px solid #cccccc; }
   .detail .item_info_r .title {
     display: inline-block;
     padding: 15px 14px;
@@ -94,7 +96,8 @@
     box-sizing: border-box;
     width: 668px;
     padding: 18px 0;
-    background: #f2f2f2; }
+    background: #f2f2f2;
+    margin-bottom: 18px; }
     .detail .item_info_r .shopping_select_wrap .arrive_title,
     .detail .item_info_r .shopping_select_wrap .in_stock {
       line-height: 24px; }
@@ -160,5 +163,204 @@
         line-height: 24px;
         margin-bottom: 8px;
         margin-right: 10px; }
+    .detail .item_info_r .shopping_select_wrap .amount-title {
+      line-height: 34px; }
+    .detail .item_info_r .shopping_select_wrap .amount_compute_wrap {
+      width: 82px;
+      height: 32px;
+      line-height: 32px;
+      text-align: center;
+      border: 1px solid #b2b2b2; }
+      .detail .item_info_r .shopping_select_wrap .amount_compute_wrap .amount_compute {
+        display: inline-block;
+        width: 15px;
+        height: 30px;
+        background: #f3f3f3; }
+      .detail .item_info_r .shopping_select_wrap .amount_compute_wrap .amount_num {
+        height: 30px;
+        border: none;
+        text-align: center;
+        border-left: 1px solid #b2b2b2;
+        border-right: 1px solid #b2b2b2;
+        width: 50px; }
+  .detail .item_info_r .selected-title {
+    line-height: 22px; }
+  .detail .item_info_r .selected {
+    line-height: 20px; }
+  .detail .item_info_r .selected {
+    color: #0479ca; }
+  .detail .item_info_r .addbuybtn_box {
+    width: 523px;
+    text-align: center;
+    height: 90px;
+    margin-bottom: 14px; }
+    .detail .item_info_r .addbuybtn_box .addbuybtn {
+      display: inline-block;
+      vertical-align: middle;
+      height: 22px;
+      text-align: center;
+      background: #f98700;
+      color: #fff;
+      padding: 14px 18px; }
+      .detail .item_info_r .addbuybtn_box .addbuybtn .icon_car {
+        margin: 0;
+        margin-right: 5px;
+        padding: 0;
+        display: inline-block;
+        width: 22px;
+        height: 19px;
+        margin-bottom: 5px;
+        vertical-align: middle;
+        overflow: hidden;
+        background: url(../images/shopcar.png) no-repeat; }
+    .detail .item_info_r .addbuybtn_box .line_h90 {
+      display: inline-block;
+      margin: 0 34px;
+      height: 90px;
+      overflow: hidden;
+      width: 1px;
+      background: #e5e5e5;
+      vertical-align: middle; }
+  .detail .item_info_r .zy {
+    text-indent: 14px; }
+
+.sidebar {
+  width: 188px; }
+  .sidebar .aside {
+    width: 188px;
+    background: #ffffff;
+    margin-bottom: 10px;
+    border: 1px solid #cccccc;
+    border-top: 3px solid #1d86cf; }
+    .sidebar .aside .title {
+      width: 188px;
+      height: 39px;
+      background: #f3f3f3;
+      line-height: 39px;
+      border-bottom: 1px solid #cccccc;
+      font-size: 14px;
+      text-indent: 14px; }
+    .sidebar .aside .item {
+      width: 166px;
+      padding-left: 12px;
+      padding-bottom: 3px;
+      font-size: 12px; }
+      .sidebar .aside .item .pic {
+        height: 156px;
+        width: 156px;
+        line-height: 156px;
+        text-align: center; }
+        .sidebar .aside .item .pic img {
+          display: inline-block;
+          max-width: 156px;
+          max-height: 156px;
+          vertical-align: middle; }
+      .sidebar .aside .item .name {
+        width: 180px;
+        font-family: "NSimSun";
+        font-size: 12px;
+        color: #999999;
+        line-height: 18px;
+        padding: 0; }
+      .sidebar .aside .item .price {
+        font-family: "Microsoft YaHei";
+        line-height: 21px;
+        color: #e34242; }
+
+.product-intro {
+  width: 788px;
+  /* 广告位 */
+  /*  商品评价 */ }
+  .product-intro .product-intro-tabbar {
+    width: 786px;
+    height: 40px; }
+    .product-intro .product-intro-tabbar .tab {
+      width: 100%;
+      height: 40px; }
+      .product-intro .product-intro-tabbar .tab .tab-item {
+        box-sizing: border-box;
+        background: #f3f3f3;
+        float: left;
+        width: 50%;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        border: 1px solid #cccccc; }
+        .product-intro .product-intro-tabbar .tab .tab-item .spjs {
+          display: inline-block;
+          width: 20px;
+          height: 15px;
+          margin-right: 10px;
+          background: url(../images/reviewpage_icon_cpjs.png) no-repeat; }
+        .product-intro .product-intro-tabbar .tab .tab-item .sppj {
+          display: inline-block;
+          width: 19px;
+          height: 23px;
+          margin-right: 10px;
+          background: url(../images/reviewpage_icon_sppj.png) bottom no-repeat; }
+      .product-intro .product-intro-tabbar .tab .active {
+        background: #0479ca;
+        border: none; }
+        .product-intro .product-intro-tabbar .tab .active a {
+          color: #ffffff; }
+  .product-intro .product_desciption {
+    padding: 10px;
+    background: #ffffff;
+    border: 1px solid #cccccc;
+    margin-bottom: 15px; }
+  .product-intro .ad {
+    width: 760px;
+    text-align: center; }
+    .product-intro .ad .ad_img {
+      padding: 28px 0;
+      display: inline-block;
+      max-width: 760px; }
+  .product-intro .desciption-item {
+    padding-bottom: 18px; }
+    .product-intro .desciption-item .desciption-item-title {
+      width: 760px;
+      height: 36px;
+      line-height: 36px;
+      border-bottom: 4px solid #d7d7d7; }
+      .product-intro .desciption-item .desciption-item-title h3 {
+        display: inline-block;
+        height: 36px;
+        padding: 0 10px;
+        font-size: 16px;
+        line-height: 36px;
+        color: #2457a6;
+        border-bottom: 4px solid #2457a6; }
+    .product-intro .desciption-item .desciption-item-desc {
+      width: 760px;
+      padding: 15px 0;
+      color: #666666;
+      font-family: "SimSun";
+      font-size: 14px;
+      line-height: 22px; }
+    .product-intro .desciption-item .desciption-item-pic {
+      display: inline-block;
+      max-width: 760px;
+      background: #fff;
+      margin-top: 5px;
+      margin-bottom: 5px; }
+  .product-intro .product-reviewbar,
+  .product-intro .product-reviewbar > * {
+    box-sizing: border-box; }
+  .product-intro .product-reviewbar .product-review_score {
+    padding: 8px;
+    background: #ffffff; }
+    .product-intro .product-reviewbar .product-review_score .product-review_score-l {
+      width: 100px; }
+      .product-intro .product-reviewbar .product-review_score .product-review_score-l .product-review_score-title {
+        font-size: 14px;
+        font-family: "NSimSun";
+        line-height: 22px;
+        margin-bottom: 27px; }
+      .product-intro .product-reviewbar .product-review_score .product-review_score-l .product-review_score-score {
+        font-size: 18px;
+        color: #66667d; }
+        .product-intro .product-reviewbar .product-review_score .product-review_score-l .product-review_score-score .review_score_num {
+          font-size: 50px;
+          color: #ff8f00; }
 
 /*# sourceMappingURL=review.css.map */

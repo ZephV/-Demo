@@ -27,8 +27,8 @@ $yoy:'YouYuan'; //幼圆
 .detail {
     border: 1px solid #cccccc;
     background: #ffffff;
+    margin-bottom: 14px;
     .item_info_l {
-        border-right: 1px solid #cccccc;
         width: 309px;
         height: 100%;
         .preview {
@@ -63,7 +63,8 @@ $yoy:'YouYuan'; //幼圆
     .item_info_r {
         .des_wrap {
             padding: 10px;
-            width: 668px;
+            width: 667px;
+            border-left: 1px solid #cccccc;
         }
         .title {
             display: inline-block;
@@ -126,6 +127,7 @@ $yoy:'YouYuan'; //幼圆
             width: 668px;
             padding: 18px 0;
             background: #f2f2f2;
+            margin-bottom: 18px;
             .arrive_title,
             .in_stock {
                 line-height: 24px;
@@ -202,6 +204,250 @@ $yoy:'YouYuan'; //幼圆
                     line-height: 24px;
                     margin-bottom: 8px;
                     margin-right: 10px;
+                }
+            }
+            //
+            .amount-title {
+                line-height: 34px;
+            }
+            .amount_compute_wrap {
+                width: 82px;
+                height: 32px;
+                line-height: 32px;
+                text-align: center;
+                border: 1px solid #b2b2b2;
+                .amount_compute {
+                    display: inline-block;
+                    width: 15px;
+                    height: 30px;
+                    background: #f3f3f3;
+                }
+                .amount_num {
+                    height: 30px;
+                    border: none;
+                    text-align: center;
+                    border-left: 1px solid #b2b2b2;
+                    border-right: 1px solid #b2b2b2;
+                    width: 50px;
+                }
+            }
+        }
+        .selected-title {
+            line-height: 22px;
+        }
+        .selected {
+            line-height: 20px;
+        }
+        .selected {
+            color: #0479ca;
+        }
+        .addbuybtn_box {
+            width: 523px;
+            text-align: center;
+            height: 90px;
+            margin-bottom: 14px;
+            .addbuybtn {
+                display: inline-block;
+                vertical-align: middle;
+                height: 22px;
+                text-align: center;
+                background: #f98700;
+                color: #fff;
+                padding: 14px 18px;
+                .icon_car {
+                    margin: 0;
+                    margin-right: 5px;
+                    padding: 0;
+                    display: inline-block;
+                    width: 22px;
+                    height: 19px;
+                    margin-bottom: 5px;
+                    vertical-align: middle;
+                    overflow: hidden;
+                    background: url(../images/shopcar.png) no-repeat;
+                }
+            }
+            .line_h90 {
+                display: inline-block;
+                margin: 0 34px;
+                height: 90px;
+                overflow: hidden;
+                width: 1px;
+                background: #e5e5e5;
+                vertical-align: middle;
+            }
+        }
+        .zy {
+            text-indent: 14px;
+        }
+    }
+}
+
+.sidebar {
+    width: 188px;
+    .aside {
+        width: 188px;
+        background: #ffffff;
+        margin-bottom: 10px;
+        border: 1px solid #cccccc;
+        border-top: 3px solid #1d86cf;
+        .title {
+            width: 188px;
+            height: 39px;
+            background: #f3f3f3;
+            line-height: 39px;
+            border-bottom: 1px solid #cccccc;
+            font-size: 14px;
+            text-indent: 14px;
+        }
+        .item {
+            width: 166px;
+            padding-left: 12px;
+            padding-bottom: 3px;
+            font-size: 12px;
+            .pic {
+                height: 156px;
+                width: 156px;
+                line-height: 156px;
+                text-align: center;
+                img {
+                    display: inline-block;
+                    max-width: 156px;
+                    max-height: 156px;
+                    vertical-align: middle;
+                }
+            }
+            .name {
+                width: 180px;
+                font-family: $xst;
+                font-size: 12px;
+                color: #999999;
+                line-height: 18px;
+                padding: 0;
+            }
+            .price {
+                font-family: $wryh;
+                line-height: 21px;
+                color: #e34242;
+            }
+        }
+    }
+}
+
+.product-intro {
+    width: 788px;
+    .product-intro-tabbar {
+        width: 786px;
+        height: 40px;
+        .tab {
+            width: 100%;
+            height: 40px;
+            .tab-item {
+                box-sizing: border-box;
+                background: #f3f3f3;
+                float: left;
+                width: 50%;
+                height: 40px;
+                line-height: 40px;
+                text-align: center;
+                border: 1px solid #cccccc;
+                .spjs {
+                    display: inline-block;
+                    width: 20px;
+                    height: 15px;
+                    margin-right: 10px;
+                    background: url(../images/reviewpage_icon_cpjs.png) no-repeat;
+                }
+                .sppj {
+                    display: inline-block;
+                    width: 19px;
+                    height: 23px;
+                    margin-right: 10px;
+                    background: url(../images/reviewpage_icon_sppj.png) bottom no-repeat;
+                }
+            }
+            .active {
+                background: #0479ca;
+                border: none;
+                a {
+                    color: #ffffff;
+                }
+            }
+        }
+    }
+    .product_desciption {
+        padding: 10px;
+        background: #ffffff;
+        border: 1px solid #cccccc;
+        margin-bottom: 15px;
+    }
+    /* 广告位 */
+    .ad {
+        width: 760px;
+        text-align: center;
+        .ad_img {
+            padding: 28px 0;
+            display: inline-block;
+            max-width: 760px;
+        }
+    }
+    .desciption-item {
+        padding-bottom: 18px;
+        .desciption-item-title {
+            width: 760px;
+            height: 36px;
+            line-height: 36px;
+            border-bottom: 4px solid #d7d7d7;
+            h3 {
+                display: inline-block;
+                height: 36px;
+                padding: 0 10px;
+                font-size: 16px;
+                line-height: 36px;
+                color: #2457a6;
+                border-bottom: 4px solid #2457a6;
+            }
+        }
+        .desciption-item-desc {
+            width: 760px;
+            padding: 15px 0;
+            color: #666666;
+            font-family: $st;
+            font-size: 14px;
+            line-height: 22px;
+        }
+        .desciption-item-pic {
+            display: inline-block;
+            max-width: 760px;
+            background: #fff;
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+    }
+    /*  商品评价 */
+    .product-reviewbar,
+    .product-reviewbar>* {
+        box-sizing: border-box;
+    }
+    .product-reviewbar {
+        .product-review_score {
+            padding: 8px;
+            background: #ffffff;
+            .product-review_score-l {
+                width: 100px;
+                .product-review_score-title {
+                    font-size: 14px;
+                    font-family: $xst;
+                    line-height: 22px;
+                    margin-bottom: 27px;
+                }
+                .product-review_score-score {
+                    font-size: 18px;
+                    color: #66667d;
+                    .review_score_num {
+                        font-size: 50px;
+                        color: #ff8f00;
+                    }
                 }
             }
         }
