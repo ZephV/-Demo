@@ -336,6 +336,7 @@ $yoy:'YouYuan'; //幼圆
 
 .product-intro {
     width: 788px;
+    font-size: 12px;
     .product-intro-tabbar {
         width: 786px;
         height: 40px;
@@ -430,17 +431,22 @@ $yoy:'YouYuan'; //幼圆
         box-sizing: border-box;
     }
     .product-reviewbar {
-        .product-review_score {
-            padding: 8px;
+        border: 1px solid #cccccc;
+        margin-bottom: 15px;
+        .product-review_score_box {
+            height: 160px;
             background: #ffffff;
+            padding: 10px;
+            .product-review_score-title {
+                font-size: 14px;
+                font-family: $xst;
+                line-height: 22px;
+                text-indent: 2px;
+                margin-bottom: 15px;
+            }
+        }
+        .product-review_score {
             .product-review_score-l {
-                width: 100px;
-                .product-review_score-title {
-                    font-size: 14px;
-                    font-family: $xst;
-                    line-height: 22px;
-                    margin-bottom: 27px;
-                }
                 .product-review_score-score {
                     font-size: 18px;
                     color: #66667d;
@@ -450,6 +456,308 @@ $yoy:'YouYuan'; //幼圆
                     }
                 }
             }
+            .product-review_score-r {
+                margin-left: 10px;
+                .product-review_score-speed {
+                    width: 450px;
+                    height: 16px;
+                    margin-top: 10px;
+                    background: #bdbdbd;
+                    color: #ffffff;
+                    font-size: 12px;
+                    position: relative;
+                    .product-review_score-speed-text {
+                        height: 100%;
+                        li {
+                            float: left;
+                            font-family: $xst;
+                        }
+                        .score_01 {
+                            width: 114px;
+                            text-indent: 26px;
+                        }
+                        .score_02 {
+                            width: 82px;
+                        }
+                        .score_03 {
+                            width: 76px;
+                        }
+                        .score_04 {
+                            width: 65px;
+                        }
+                    }
+                    .score_num_icon {
+                        width: 25px;
+                        height: 18px;
+                        top: -21px;
+                        left: 91%;
+                        text-align: center;
+                        background: #fff;
+                        position: absolute;
+                        span {
+                            display: inline-block;
+                            width: 25px;
+                            height: 14px;
+                            line-height: 14px;
+                            background: #7f7f7f;
+                            margin-bottom: 4px;
+                        }
+                        i {
+                            border-top: 4px solid #7f7f7f;
+                            border-left: 4px solid transparent;
+                            border-right: 4px solid transparent;
+                        }
+                    }
+                }
+                .product-review_count {
+                    margin-top: 12px;
+                    font-size: 12px;
+                    color: #66667d;
+                }
+            }
+        }
+        .product-review_degree-tab {
+            height: 33px;
+            background: #f2f2f2;
+            .degree {
+                .degree-list {
+                    margin-left: 20px;
+                }
+                .degree-item {
+                    height: 29px;
+                    line-height: 29px;
+                    float: left;
+                    padding: 0 6px;
+                    color: #000000;
+                    margin-right: 40px;
+                    &:hover {
+                        color: #317ee7;
+                        border-bottom: 4px solid #317ee7;
+                    }
+                }
+                .active {
+                    color: #317ee7;
+                    border-bottom: 4px solid #317ee7;
+                }
+            }
+            .sort {
+                height: 32px;
+                .sort-list {
+                    margin-top: 5px;
+                    margin-right: 6px;
+                }
+                .sort-item {
+                    float: left;
+                    height: 20px;
+                    padding: 0 5px;
+                    line-height: 20px;
+                    border: 1px solid #cdcdcd;
+                    span {
+                        display: inline-block;
+                        margin-left: 4px;
+                        padding-top: 2px;
+                        em {
+                            margin-left: 3px;
+                            display: block;
+                            width: 5px;
+                            height: 5px;
+                            background: #000;
+                        }
+                        i {
+                            display: block;
+                            border-top: 6px solid #000;
+                            border-right: 5px solid transparent;
+                            border-left: 6px solid transparent;
+                        }
+                    }
+                }
+            }
+        }
+        /* 评价详情栏 */
+        .product-review_all {
+            background: #ffffff;
+            .product-review_all-item {
+                padding-bottom: 35px;
+                .review_user {
+                    padding-left: 40px;
+                    padding-top: 18px;
+                    text-align: center;
+                    .review_user_avatar {
+                        width: 60px;
+                        height: 60px;
+                        margin-bottom: 5px;
+                    }
+                    .review_user_id,
+                    .review_user_name {
+                        line-height: 18px;
+                        color: #77778c;
+                    }
+                }
+                .the_review {
+                    padding-top: 23px;
+                    margin-left: 72px;
+                    .star_degeree {
+                        margin-bottom: 18px;
+                        .star {
+                            display: inline-block;
+                            width: 13px;
+                            height: 13px;
+                            background: url(../images/star.png) no-repeat;
+                        }
+                        .star_num {
+                            font-weight: bold;
+                        }
+                    }
+                    .the_user_review {
+                        color: #777777;
+                        margin-bottom: 14px;
+                    }
+                    .good_or_bad {
+                        color: #085c9b;
+                        a {
+                            color: #085c9b;
+                            margin-right: 12px;
+                        }
+                    }
+                }
+                .review_time {
+                    color: #777777;
+                    padding-top: 26px;
+                    padding-right: 24px;
+                }
+            }
+        }
+    }
+    /* 咨询 */
+    .product-advisory {
+        background: #ffffff;
+        .page {
+            margin-left: 462px;
+        }
+        .product-advisory-top {
+            height: 33px;
+            color: #076ebb;
+            border-bottom: 1px solid #076ebb;
+            .advisory-top-title {
+                height: 32px;
+                line-height: 40px;
+                font-size: 14px;
+                font-family: $st;
+                border: 1px solid #076ebb;
+                border-bottom: 1px solid #ffffff;
+                padding-left: 18px;
+                padding-right: 14px;
+            }
+            .seed_advisory {
+                line-height: 36px;
+                margin-right: 26px;
+            }
+        }
+        .product-advisory-prompt {
+            box-sizing: border-box;
+            margin-top: 10px;
+            margin-left: 21px;
+            margin-bottom: 28px;
+            padding: 8px 20px;
+            line-height: 25px;
+            width: 754px;
+            background: #f3f3f3;
+            font-family: $st;
+        }
+        .product-advisory-item {
+            padding-bottom: 36px;
+            .advisory_user {
+                margin-left: 64px;
+                .advisory_user_name,
+                .advisory_user_id {
+                    text-align: center;
+                }
+            }
+            .the_advisory {
+                margin-left: 30px;
+                width: 606px;
+                font-family: $st;
+                .zx_box {
+                    margin-bottom: 14px;
+                    .zx {
+                        font-weight: bold;
+                    }
+                    .zx_time {
+                        margin-right: 12px;
+                        color: #777777;
+                    }
+                }
+                .question,
+                .answer {
+                    color: #777777;
+                }
+                .question {
+                    margin-bottom: 14px;
+                }
+                .boxtri {
+                    position: absolute;
+                    top: -5px;
+                    left: 29px;
+                    display: inline-block;
+                    width: 0;
+                    border-bottom: 5px solid #f1f1f1;
+                    border-left: 5px solid transparent;
+                    border-right: 5px solid transparent;
+                }
+                .answer {
+                    position: relative;
+                    box-sizing: border-box;
+                    position: relative;
+                    width: 604px;
+                    background: #f1f1f1;
+                    padding: 20px 28px;
+                    span {
+                        font-weight: bold;
+                        color: #000000;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// 页面跳转
+.page {
+    margin-left: 274px;
+    padding-bottom: 20px;
+    .page_num_btn {
+        text-align: center;
+        a {
+            display: inline-block;
+            line-height: 23px;
+            height: 23px;
+            padding: 0 8px;
+            border: 1px solid #999;
+            margin-right: 5px;
+        }
+        .hl {
+            display: inline-block;
+            line-height: 26px;
+            padding: 0px 12px;
+            margin-right: 5px;
+        }
+    }
+    .jump_page {
+        .jump_page-font {
+            line-height: 22px;
+        }
+        .page_num {
+            height: 22px;
+            width: 35px;
+            line-height: 22px;
+            margin: 0 3px;
+            border: 1px solid #CCC;
+            text-align: center;
+        }
+        .ok_btn {
+            margin-left: 12px;
+            border: 1px solid #707070;
+            border-radius: 3px;
         }
     }
 }
